@@ -30,6 +30,13 @@
  .nav-bottom-border{
    border-bottom: 2px solid #f56f6f!important;
  }
+
+ .nav-pills .nav-link.active,
+ .nav-pills .show>.nav-link {
+     color: #fff;
+     background-color: #0e0e0e9e;
+ }
+
  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
    /* background-color: #FF3838;
    color: #FFF !important; */
