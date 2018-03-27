@@ -58,6 +58,19 @@
   color: #22b29a
 }
 
+
+div.background {
+    background: url("../img/cargo-ship-sketch.jpg");
+    background-size: cover;
+    background-position: top center;
+    min-height: 500px;
+}
+
+
+
+
+
+
  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
    /* background-color: #FF3838;
    color: #FFF !important; */
