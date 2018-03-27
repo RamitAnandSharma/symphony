@@ -1,4 +1,7 @@
-$(window).scroll(function() {
+$(function($) {
+
+
+  $(window).scroll(function() {
   if ($(window).scrollTop() > 50) {
     $('#siteheader').removeClass('p-4 mb-3').addClass('nav-bottom-border');
     $('#navbarCollapse').find( ".nav-link" ).removeClass('s-normal').addClass('s-small');
@@ -11,3 +14,6 @@ $(window).scroll(function() {
 });
 //$('.parallax-window').parallax({imageSrc: '../Symphony/img/cargo-ship.jpg'});
   // baguetteBox.run('.tz-gallery');
+ 
+
+     });
