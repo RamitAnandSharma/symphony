@@ -1,0 +1,177 @@
+
+ /* Show it is fixed to the top */
+ body {
+   /* min-height: 75rem;
+   padding-top: 4.5rem; */
+ }
+
+ .background-image {
+     background-size: cover;
+     background-position: center top;
+     position: relative;
+ }
+
+
+ .parallax1 {
+     /* The image used */
+     background-image: url("../img/cargo-ship.jpg");
+     /* Set a specific height */
+     min-height: 500px;
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-color: rgba(11, 11, 12, 0.2);
+ }
+ .parallax-window {
+     min-height: 400px;
+     background: transparent;
+ }
+
+ .parallax2 {
+     /* The image used */
+     background-image: url("../img/cargo-ship-sketch.jpg");
+
+     /* Set a specific height */
+     min-height: 500px;
+
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .inner {
+    padding: 0 7%;
+    padding-top: 130px;
+    letter-spacing: 0.12em;
+    margin: 0 auto;
+    position: relative;
+    font-family: "Circular-Book",sans-serif;
+}
+
+/* .navbar {
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  font-family: "Circular-Book",sans-serif;
+  transition: color .1s;
+  text-transform: uppercase;
+} */
+
+.intro-copy {
+    letter-spacing: 0.10em;
+    color: white;
+    /* padding: 80px 0px 103px; */
+    font-family: "Circular-Book",sans-serif;
+    /* background-color: rgba(11, 11, 12, 0.2); */
+    /* padding-bottom: 0px; */
+    padding-top: 130px;
+}
+
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  /* background-color: #FF3838;
+  color: #FFF !important; */
+  border-radius: 100px;
+  padding: 1px 13px 2px;
+}
+.nav-pills .nav-item .nav-link {
+  /* color: #ABABAB; */
+  border-radius: 100px;
+  padding: 1px 13px 2px;
+}
+
+.table-section-header{
+   padding: 20px;
+   padding-bottom: 0px;
+   margin-bottom: -25px;
+}
+.section-header{
+   /* box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15); */
+   background: linear-gradient(40deg, #303f9f, #45cafc)!important;
+}
+.nav-bottom-border{
+  border-bottom: 2px solid #f56f6f!important;
+}
+
+
+
+
+.font-Playfair{
+  font-family: Playfair Display,serif;
+}
+
+
+
+
+.lightbox img {
+  height: 100px;
+}
+.media img {
+  height: 100px;
+}
+
+/* .h1, .h2, .h3, .h4, .h5, .h6, .section_menu__item__price, h1, h2, h3, h4, h5, h6 {
+    font-family: Playfair Display,serif;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: .5rem;
+    color: #151515;
+
+        font-size: 1.75rem;
+} */
+
+/* .site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+} */
+
+
+
+.navbar {
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  font-family: "Circular-Book",sans-serif;
+  transition: color .1s;
+  text-transform: uppercase;
+}
+.navbar .nav-link .small{
+  font-size: 11px;
+}
+.navbar .nav-link .normal{
+  font-size: 13px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .active>.nav-link:hover,
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #007bff!important;
+}
+
+
+
+
+
+
+.section-head-section{
+    border-bottom: 7px solid #f56f6f;
+    padding-top: 20px;
+        margin-bottom: 20px;
+}
+.section-head {
+    margin-bottom: 20px;
+}

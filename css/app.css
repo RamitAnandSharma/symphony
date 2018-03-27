@@ -1,0 +1,114 @@
+
+ /* Show it is fixed to the top */
+ body {
+   /* min-height: 75rem;
+   padding-top: 4.5rem; */
+ }
+
+ .navbar {
+   font-size: 13px;
+   letter-spacing: 0.12em;
+   font-family: "Circular-Book",sans-serif;
+   transition: color .1s;
+   text-transform: uppercase;
+ }
+.s-small{
+   font-size: 11px !important;
+ }
+.s-normal{
+   font-size: 13px;
+ }
+
+ .navbar-light .navbar-nav .nav-link:focus,
+ .navbar-light .navbar-nav .active>.nav-link:hover,
+ .navbar-light .navbar-nav .active>.nav-link,
+ .navbar-light .navbar-nav .nav-link.active,
+ .navbar-light .navbar-nav .nav-link.show,
+ .navbar-light .navbar-nav .show>.nav-link {
+     color: #007bff!important;
+ }
+ .nav-bottom-border{
+   border-bottom: 2px solid #f56f6f!important;
+ }
+ .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+   /* background-color: #FF3838;
+   color: #FFF !important; */
+   border-radius: 100px;
+   padding: 1px 13px 2px;
+ }
+ .nav-pills .nav-item .nav-link {
+   /* color: #ABABAB; */
+   border-radius: 100px;
+   padding: 1px 13px 2px;
+ }
+
+
+
+ .parallax-window {
+     /* min-height: 800px; */
+     background: transparent;
+     width: 100%;
+     background-color: rgba(11, 11, 12, 0.31); /*rgba(11, 11, 12, 0.2);*/
+ }
+
+ .parallax2 {
+     /* The image used */
+     background-image: url("../img/cargo-ship-sketch.jpg");
+
+     /* Set a specific height */
+     min-height: 500px;
+
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .bg-purple {
+     background-color: #9ca6da;
+ }
+.intro-copy {
+    /* letter-spacing: 0.10em; */
+    color: white;
+    /* padding: 80px 0px 103px; */
+    /* font-family: "Circular-Book",sans-serif; */
+    /* background-color: rgba(11, 11, 12, 0.2); */
+    /* padding-bottom: 0px; */
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.section-header{
+   box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+   /* background: linear-gradient(40deg, #303f9f, #45cafc)!important; */
+   /* background: linear-gradient(40deg, #f56f6f, #45cafc00)!important; */
+   background: linear-gradient(40deg, #f56f6f, #45cafc94)!important;
+   /* background: linear-gradient(40deg, #f56f6f, #fc454547)!important; */
+   color: #ffffff;
+}
+.section-header-main{
+    border-bottom: 7px solid #f56f6f;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.font-Playfair{
+  font-family: Playfair Display,serif;
+}
+.font-SansSerif{
+  font-family: 'Open Sans', sans-serif;
+}
+.font-Roman{
+  font-family: 'ChronicleDisplay-Roman';
+}
+
+.z {
+    width: 100%;
+    bottom: 0;
+    /* position: absolute; */
+    left: 50%;
+}
